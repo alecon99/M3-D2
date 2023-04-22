@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 30px;
+    background-color: rgba(255, 238, 0, 0.214);
+    width: auto;
+    gap: 30px;
+}
+
+#image {
+    width: 500px;
+    height: 400px;
+    background-image: url(honey.jpg);
+    background-position: center;
+}
+
+#article{
+    width: 500px;
+    color: rgb(120, 47, 7);
+}
+
+#article p {
+    margin: 0;
+}
